@@ -1,0 +1,109 @@
+{
+  "status": {
+    "version": "1.0.0",
+    "code": 0,
+    "msg": "SuccessWithResult",
+    "total": 1,
+    "page": 1,
+    "pagesize": 10,
+    "responseDateTime": "2025-09-27T23:38:00.161Z",
+    "transactionID": "6d4b3ad2c0385648a92a63b2082f9e5b",
+    "attomId": 97581
+  },
+  "property": [
+    {
+      "identifier": {
+        "Id": 97581,
+        "fips": "17031",
+        "apn": "14-21-307-016",
+        "attomId": 97581
+      },
+      "lot": {
+        "lotnum": "22",
+        "lotsize1": 0.4243113,
+        "lotsize2": 18483,
+        "pooltype": "NO POOL"
+      },
+      "area": {
+        "blockNum": "13",
+        "loctype": "VIEW - NONE",
+        "countrysecsubd": "Cook",
+        "countyuse1": "3-18 ",
+        "muncode": "CO",
+        "munname": "COOK",
+        "srvyRange": "14E",
+        "srvySection": "21",
+        "srvyTownship": "40N",
+        "subdname": "JONES SUB",
+        "taxcodearea": "73116"
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "IL",
+        "line1": "3401 N BROADWAY ST",
+        "line2": "CHICAGO, IL 60657",
+        "locality": "CHICAGO",
+        "matchCode": "ExaStr",
+        "oneLine": "3401 N BROADWAY ST, CHICAGO, IL 60657",
+        "postal1": "60657",
+        "postal2": "2904",
+        "postal3": "C055"
+      },
+      "location": {
+        "accuracy": "Rooftop",
+        "latitude": "41.943678",
+        "longitude": "-87.644698",
+        "distance": 0.0,
+        "geoid": "CO17031, CS1714000, DB1709930, ND0000028598, ND0000251324, ND0004718141, PL1714000, ZI60657",
+        "geoIdV4": {
+          "CO": "f60cf773814f0650b074a7b27e7c4e24",
+          "CS": "107990e6e0229a8ccfa65c6ca2a6440a",
+          "DB": "d2babda30e614ff058235ca544fd18ec",
+          "N1": "6966c4a21b804b5192617b1943ed0d8e",
+          "N2": "d3d408d445f575a0861eff096834f448",
+          "N3": "8f56f6f3c4d7db26ebdc77983d3f9d1f",
+          "PL": "643446d3873e7c0361f2d5348bf66a51",
+          "SB": "edc649e2de11a3c06a38fc53fe0829e6, 4e37845c761f4402385b3c8c169c1f38",
+          "ZI": "40ecd066b54e85192e9a9b5cb125c44a"
+        }
+      },
+      "summary": {
+        "absenteeInd": "ABSENTEE(MAIL AND SITUS NOT =)",
+        "propclass": "Apartment",
+        "propsubtype": "Commercial",
+        "proptype": "STORES & RESIDENTIAL",
+        "propertyType": "STORES & APARTMENTS",
+        "yearbuilt": 1918,
+        "propLandUse": "STORES & RESIDENTIAL",
+        "propIndicator": "22",
+        "legal1": "(JONES) SUB OF LT22 OF PINE GROVE SUB IN SEC 21-40-14"
+      },
+      "utilities": {},
+      "building": {
+        "size": {
+          "bldgsize": 2900,
+          "grosssizeadjusted": 2900,
+          "livingsize": 2900,
+          "sizeInd": "BUILDING SQFT",
+          "universalsize": 2900
+        },
+        "rooms": {},
+        "interior": {},
+        "construction": {},
+        "parking": {},
+        "summary": {
+          "archStyle": "OTHER",
+          "bldgType": "COMMERCIAL",
+          "imprType": "COMMERCIAL",
+          "levels": 3,
+          "storyDesc": "COMMERCIAL",
+          "view": "VIEW - NONE"
+        }
+      },
+      "vintage": {
+        "lastModified": "2025-02-25",
+        "pubDate": "2025-02-25"
+      }
+    }
+  ]
+}
