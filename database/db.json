@@ -1,0 +1,250 @@
+{
+  "users": [
+    {
+      "id": "8b8a1f22-b0c5-4a1f-8c1e-0e0c3d2c6a11",
+      "display_name": "Alex Rivera",
+      "password": "123456789",
+      "phone_e164": "+13125551234",
+      "created_at": "2025-09-27T15:05:00Z"
+    }
+  ],
+  "homes": [
+    {
+      "id": "5d4e2a31-3e7b-4f1b-9a0a-6a1f94a3e7c9",
+      "user_id": "8b8a1f22-b0c5-4a1f-8c1e-0e0c3d2c6a11",
+      "address_text": "123 W Randolph St, Chicago, IL 60601",
+      "latitude": 41.8842,
+      "longitude": -87.6389,
+      "building_type": "apartment",
+      "year_built": 2012,
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "has_central_ac": true,
+      "pets": 1,
+      "smokers": 0,
+      "floor": "2",
+      "material": "brick",
+      "evac_map_path": "assets/evac_maps/evac_map_123wrandolph.jpg",
+      "created_at": "2025-09-27T15:05:05Z",
+      "updated_at": "2025-09-27T15:05:05Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "f0fb18fe-ef3e-4c1e-8c1b-1f1b0f4a9b77",
+      "user_id": "8b8a1f22-b0c5-4a1f-8c1e-0e0c3d2c6a11",
+      "name": "Jordan Lee",
+      "phone_e164": "+13125559876",
+      "relationship": "Sibling",
+      "is_primary": true,
+      "created_at": "2025-09-27T15:05:10Z"
+    }
+  ],
+  "task_templates": [
+    {
+      "id": "tpl-mold-60d",
+      "category": "Health",
+      "title": "Inspect for mold/mildew",
+      "why": "Moisture can cause respiratory issues.",
+      "how_markdown": "Check bathroom grout, under sinks, window frames. Run fan after showers.",
+      "default_frequency_days": 60,
+      "seasonal_window": null,
+      "visibility_rules_json": "{}"
+    },
+    {
+      "id": "tpl-pest-90d",
+      "category": "Health",
+      "title": "Check for pests",
+      "why": "Pests spread disease and can damage wiring/food.",
+      "how_markdown": "Look under sinks and behind stove/fridge. Seal gaps. Store food sealed.",
+      "default_frequency_days": 90,
+      "seasonal_window": null,
+      "visibility_rules_json": "{}"
+    },
+    {
+      "id": "tpl-smokeco-test-30d",
+      "category": "Safety",
+      "title": "Test smoke/CO alarms",
+      "why": "Early detection saves lives.",
+      "how_markdown": "Press and hold the test button until the alarm sounds.",
+      "default_frequency_days": 30,
+      "seasonal_window": null,
+      "visibility_rules_json": "{}"
+    },
+    {
+      "id": "tpl-battery-replace-fall",
+      "category": "Safety",
+      "title": "Replace smoke/CO batteries (Fall)",
+      "why": "Batteries degrade; replace twice a year.",
+      "how_markdown": "Replace 9V/AA cells; test after replacement.",
+      "default_frequency_days": null,
+      "seasonal_window": "fall",
+      "visibility_rules_json": "{}"
+    },
+    {
+      "id": "tpl-ac-filter-90d",
+      "category": "General",
+      "title": "Replace/clean AC filter",
+      "why": "Improves air quality and efficiency.",
+      "how_markdown": "Replace filter with correct size; note airflow arrow.",
+      "default_frequency_days": 90,
+      "seasonal_window": null,
+      "visibility_rules_json": "{\"has_central_ac\": true}"
+    },
+    {
+      "id": "tpl-weatherstrip-fall",
+      "category": "Seasonal",
+      "title": "Check weather-stripping & drafts",
+      "why": "Reduce drafts and winter heating costs.",
+      "how_markdown": "Inspect door/window seals; replace worn stripping.",
+      "default_frequency_days": null,
+      "seasonal_window": "fall",
+      "visibility_rules_json": "{}"
+    },
+    {
+      "id": "tpl-dryer-vent-90d",
+      "category": "General",
+      "title": "Clean dryer vent (lint)",
+      "why": "Lint buildup is a fire risk.",
+      "how_markdown": "Vacuum lint trap and vent hose; ensure exterior flap opens freely.",
+      "default_frequency_days": 90,
+      "seasonal_window": null,
+      "visibility_rules_json": "{}"
+    },
+    {
+      "id": "tpl-gfci-90d",
+      "category": "General",
+      "title": "Test GFCI outlets",
+      "why": "Protects from shock in wet areas.",
+      "how_markdown": "Press TEST then RESET on each GFCI in kitchen/bath.",
+      "default_frequency_days": 90,
+      "seasonal_window": null,
+      "visibility_rules_json": "{}"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t-001-mold",
+      "home_id": "5d4e2a31-3e7b-4f1b-9a0a-6a1f94a3e7c9",
+      "template_id": "tpl-mold-60d",
+      "title": "Inspect for mold/mildew",
+      "category": "Health",
+      "frequency_days": 60,
+      "next_due": "2025-11-26",
+      "status": "active",
+      "priority": 0,
+      "remind_channel": "calendar",
+      "last_completed_at": "2025-09-27T15:06:00Z",
+      "evidence_path": null,
+      "created_at": "2025-09-27T15:06:00Z"
+    },
+    {
+      "id": "t-002-pest",
+      "home_id": "5d4e2a31-3e7b-4f1b-9a0a-6a1f94a3e7c9",
+      "template_id": "tpl-pest-90d",
+      "title": "Check for pests",
+      "category": "Health",
+      "frequency_days": 90,
+      "next_due": "2025-12-26",
+      "status": "active",
+      "priority": 0,
+      "remind_channel": "calendar",
+      "last_completed_at": "2025-09-27T15:06:05Z",
+      "evidence_path": null,
+      "created_at": "2025-09-27T15:06:05Z"
+    },
+    {
+      "id": "t-003-smokeco-test",
+      "home_id": "5d4e2a31-3e7b-4f1b-9a0a-6a1f94a3e7c9",
+      "template_id": "tpl-smokeco-test-30d",
+      "title": "Test smoke/CO alarms",
+      "category": "Safety",
+      "frequency_days": 30,
+      "next_due": "2025-10-27",
+      "status": "active",
+      "priority": 1,
+      "remind_channel": "calendar",
+      "last_completed_at": null,
+      "evidence_path": null,
+      "created_at": "2025-09-27T15:06:10Z"
+    },
+    {
+      "id": "t-004-battery-fall",
+      "home_id": "5d4e2a31-3e7b-4f1b-9a0a-6a1f94a3e7c9",
+      "template_id": "tpl-battery-replace-fall",
+      "title": "Replace smoke/CO batteries (Fall)",
+      "category": "Safety",
+      "frequency_days": null,
+      "next_due": "2025-11-01",
+      "status": "active",
+      "priority": 1,
+      "remind_channel": "calendar",
+      "last_completed_at": null,
+      "evidence_path": null,
+      "created_at": "2025-09-27T15:06:15Z"
+    },
+    {
+      "id": "t-005-ac-filter",
+      "home_id": "5d4e2a31-3e7b-4f1b-9a0a-6a1f94a3e7c9",
+      "template_id": "tpl-ac-filter-90d",
+      "title": "Replace/clean AC filter",
+      "category": "General",
+      "frequency_days": 90,
+      "next_due": "2025-12-26",
+      "status": "active",
+      "priority": 0,
+      "remind_channel": "calendar",
+      "last_completed_at": null,
+      "evidence_path": null,
+      "created_at": "2025-09-27T15:06:20Z"
+    }
+  ],
+  "task_completions": [
+    {
+      "id": "tc-0001",
+      "task_id": "t-001-mold",
+      "completed_at": "2025-09-27T15:06:00Z",
+      "notes": "Checked bath & kitchen; no visible spots.",
+      "evidence_path": null
+    },
+    {
+      "id": "tc-0002",
+      "task_id": "t-002-pest",
+      "completed_at": "2025-09-27T15:06:05Z",
+      "notes": "No droppings; sealed gap under sink.",
+      "evidence_path": null
+    }
+  ],
+  "noaa_latest_alerts": [
+    {
+      "id": "alrt-20250927-chi-01",
+      "home_id": "5d4e2a31-3e7b-4f1b-9a0a-6a1f94a3e7c9",
+      "source": "NWS",
+      "type": "Severe Thunderstorm Watch",
+      "severity": "Moderate",
+      "headline": "Severe Thunderstorm Watch until 8 PM CDT",
+      "instruction": "Secure balcony items; stay away from windows; keep phone charged.",
+      "effective": "2025-09-27T14:30:00Z",
+      "expires": "2025-09-27T20:00:00Z",
+      "raw_json": "{ \"example\": true }",
+      "created_at": "2025-09-27T15:07:00Z"
+    }
+  ],
+  "attom_snapshots": [
+    {
+      "id": "attom-20250927-001",
+      "home_id": "5d4e2a31-3e7b-4f1b-9a0a-6a1f94a3e7c9",
+      "fetched_at": "2025-09-27T15:07:30Z",
+      "match_quality": 0.94,
+      "property_type": "Condo/Apartment",
+      "beds": 1,
+      "baths": 1.0,
+      "year_built": 2012,
+      "stories": 35,
+      "building_sqft": 720,
+      "lot_size_sqft": null,
+      "raw_json": "{ \"attom\": \"snapshot-truncated\" }"
+    }
+  ]
+}
+
